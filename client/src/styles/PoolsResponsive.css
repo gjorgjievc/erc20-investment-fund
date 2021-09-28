@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .market-title {
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+
+  tbody tr {
+    font-size: 16px;
+    font-weight: 500;
+    height: 70px;
+  }
+
+  .thead-row {
+    height: 70px;
+    font-size: 1.05rem;
+  }
+
+  .pool-name {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  .market-title {
+    font-size: 1.3rem;
+    margin-left: 2%;
+  }
+
+  tbody tr {
+    font-size: 15px;
+    font-weight: 500;
+    height: 65px;
+  }
+
+  .thead-row {
+    font-size: 0.8rem;
+    height: 65px;
+  }
+
+  .pool-name {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 425px) {
+  .market-title {
+    font-size: 1rem;
+  }
+
+  .pool-tr {
+    font-size: 9px;
+  }
+
+  .thead-row {
+    font-size: 0.65rem;
+    height: 65px;
+  }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 320px) {
+  .market-title {
+    font-size: 1rem;
+  }
+  .pool-tr {
+    font-size: 9px;
+  }
+
+  .thead-row {
+    font-size: 0.65rem;
+    height: 65px;
+  }
+
+  tbody tr {
+    font-size: 15px;
+    font-weight: 500;
+    height: 65px;
+  }
+}

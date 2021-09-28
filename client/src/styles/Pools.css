@@ -1,0 +1,75 @@
+.pools-first-row {
+  width: 97.5%;
+  padding: 0;
+  margin-left: 1.2%;
+}
+
+.pools-second-row {
+  width: 97.5%;
+  padding: 0;
+  margin: 10% 0 0 1.2%;
+}
+
+.col {
+  padding: 0;
+}
+
+.market-title {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.spinner {
+  margin: 5% 0 0 1%;
+}
+
+tbody tr {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  height: 70px;
+  border: 2px solid #afafaf;
+  color: #222020;
+  vertical-align: middle;
+}
+
+tr:hover {
+  background-color: #e9e9e9;
+}
+
+.pool-name {
+  text-align: left;
+  padding-left: 8%;
+}
+
+.pool-th {
+  padding-left: 8%;
+}
+
+#td-th {
+  text-align: left;
+  padding-left: 8%;
+}
+
+tr {
+  vertical-align: middle;
+}
+
+.thead-row {
+  background-color: #383d51;
+  border: 2px solid #383d51;
+  height: 70px;
+  font-size: 1.25rem;
+  color: rgb(233, 229, 236);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+thead :hover {
+  background-color: #383d51;
+}
+
+.pools-table {
+  width: 100%;
+}
+

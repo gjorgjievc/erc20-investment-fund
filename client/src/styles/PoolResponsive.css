@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .card-btn {
+    font-size: 0.8rem;
+    height: 2rem;
+    margin: 0 0 0 auto;
+  }
+
+  #balance {
+    font-size: 0.72rem;
+    font-weight: 400;
+  }
+
+  #lpt-balance {
+    font-size: 0.72rem;
+    font-weight: 400;
+  }
+
+  .pool-thead-row {
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .token-name {
+    width: 160px;
+  }
+
+  tbody tr {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .amount {
+    margin-top: 0;
+  }
+
+  .input-row {
+    height: 50px;
+  }
+
+  .card-btn {
+    font-size: 0.8rem;
+    height: 1.8rem;
+    margin: 0 0 0 auto;
+  }
+
+  #balance {
+    font-size: 0.72rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  #lpt-balance {
+    font-size: 0.72rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .pool-thead-row {
+    height: 70px;
+    font-size: 0.9rem;
+  }
+
+  .token-name {
+    width: 160px;
+  }
+
+  tbody tr {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  h1 {
+    font-size: 19px;
+    margin-top: 12px;
+  }
+
+  .amount {
+    margin-top: 0;
+  }
+
+  .input-row {
+    height: 45px;
+  }
+
+  .card-btn {
+    font-size: 0.7rem;
+    height: 1.7rem;
+    margin: 0 0 0 auto;
+  }
+
+  #balance {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+
+  #lpt-balance {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+
+  .pool-thead-row {
+    height: 60px;
+    font-size: 0.75rem;
+  }
+
+  .token-name {
+    width: 145px;
+  }
+
+  tbody tr {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 425px) {
+  h1 {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  .amount {
+    margin-top: 0;
+    height: 11px;
+    font-size: 9px;
+  }
+
+  .input-row {
+    height: 20px;
+  }
+
+  .card-btn {
+    font-size: 0.42rem;
+    height: 1.2rem;
+    margin: 0 0 0 auto;
+  }
+
+  #balance {
+    font-size: 0.4rem;
+    font-weight: 400;
+  }
+
+  #lpt-balance {
+    font-size: 0.4rem;
+    font-weight: 400;
+  }
+
+  .pool-thead-row {
+    height: 60px;
+    font-size: 0.5rem;
+  }
+
+  .token-name {
+    width: 95px;
+  }
+
+  tbody tr {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 320px) {
+  h1 {
+    font-size: 10px;
+    margin-top: 16px;
+  }
+
+  .first-row {
+    margin-top: 15%;
+  }
+
+  .amount {
+    margin-top: 0;
+    height: 10px;
+    font-size: 7px;
+  }
+
+  .input-row {
+    height: 20px;
+  }
+
+  .card-btn {
+    font-size: 0.35rem;
+    height: 1rem;
+    margin: 0 0 0 auto;
+  }
+
+  #balance {
+    font-size: 0.35rem;
+    font-weight: 400;
+  }
+
+  #lpt-balance {
+    font-size: 0.35rem;
+    font-weight: 400;
+  }
+
+  .pool-thead-row {
+    height: 65px;
+    font-size: 0.4rem;
+  }
+
+  .token-name {
+    width: 75px;
+  }
+
+  tbody tr {
+    font-size: 8px;
+  }
+
+  .second-row {
+    margin-top: 10%;
+  }
+}

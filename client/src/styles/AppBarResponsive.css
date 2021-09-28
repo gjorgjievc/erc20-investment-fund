@@ -1,0 +1,86 @@
+
+@media screen and (max-width: 1520px) {
+  .div-link {
+    width: 50%;
+  }
+
+  a {
+    margin-left: 3%;
+  }
+
+  .nav-item:hover:after {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .div-link {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .div-link {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .nav-links {
+    margin-top: 25px;
+  }
+
+  .address-btn {
+    margin-top: 7px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #1f5156;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-item .active {
+    color: #ffdd40;
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffdd40;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-logo {
+    font-size: 1.4rem;
+  }
+
+  .fas {
+    width: 18px;
+  }
+}
