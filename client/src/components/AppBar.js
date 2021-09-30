@@ -78,7 +78,7 @@ function AppBar() {
       <nav className="navbar">
         <div className="nav-container">
           <Link to="/" className="nav-logo">
-            Robo - Advisor
+            ERC20 Pools
           </Link>
           <div className="div-link">
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -92,16 +92,10 @@ function AppBar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item-two">
               <div className="address">
-                { connected ?
                 <>
                   <span className="address-btn network" disabled={true}>{getNetwork(chainId)}</span>
                   <span className="address-btn account">{truncateAString(user)} &nbsp; <img className="copyAddress" onClick={copyAddress} type="button" alt="copy" title="Copy address" src={copyIcon} /></span>
                 </>   
-                : 
-                  <button size='sm' onClick={connectMeta}>
-                    connect metamask
-                  </button>
-                }
               </div>
             </li>
           </ul>

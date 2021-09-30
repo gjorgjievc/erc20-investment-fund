@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 .landing {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     background-image: url('../assets/images/landing-background.png');
+}
+.entry {
+    position: relative;
+    right: 23%;
+    transition: linear 700ms;
+    user-select: none;
+}
+.entry:hover {
+    padding: 10px;
+    cursor: pointer;    
+}
+
+.entry h1 {
+    font-size: 3rem;
+    color: #868481;
+    font-family: 'Raleway', sans-serif;
+    transition: 1s;
+}
+
+.entry h1:hover {
+    color: #383D51;
 }

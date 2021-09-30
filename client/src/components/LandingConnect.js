@@ -38,11 +38,9 @@ function LandingConnect() {
   }
 
   return (
-    <div className="landing">
-      <div className="connectButton">
-        <Button size="lg" onClick={SignIn} style={{background: '#383d51'}}>
-          Connect MetaMask
-        </Button>
+    <div className="landing" >
+      <div className="entry" onClick={SignIn}> 
+        <h1>enter app</h1>
       </div>
     </div>
   )

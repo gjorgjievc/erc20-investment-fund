@@ -15,10 +15,8 @@ function Pools({
 
   if(instancesLoaded === false){
     return(
-    <div>  
-      <Spinner animation="grow" variant="secondary" className="spinner" />
-      <Spinner animation="grow" variant="secondary" className="spinner" />
-      <Spinner animation="grow" variant="secondary" className="spinner" />
+    <div className="loading">  
+      <Spinner animation="border" variant="secondary" className="spinner" />
     </div> 
     )
   }

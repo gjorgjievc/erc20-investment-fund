@@ -20,8 +20,18 @@
   margin-left: 2%;
 }
 
+.loading {
+    opacity:0.8;
+    background-color:rgba(165, 163, 163, 0.5);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
 .spinner {
-  margin: 5% 0 0 1%;
+  margin: 18% 0 0 0;
 }
 
 tbody tr {
@@ -62,7 +72,6 @@ tr {
   height: 70px;
   font-size: 1.25rem;
   color: rgb(233, 229, 236);
-  font-family: Roboto, Arial, sans-serif;
 }
 
 thead :hover {
