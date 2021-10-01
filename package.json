@@ -1,0 +1,41 @@
+{
+  "name": "erc20-pools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "develop": "npm run truffle:deploy --network=development",
+    "deploy": "npm run lint && npm run truffle:deploy --network=development",
+    "deploy-rinkeby": "npm run truffle:deploy --network=rinkeby",
+    "deploy-mainnet": "npm run truffle:deploy --network=mainnet",
+    "deploy-kovan": "npm run truffle:deploy --network=kovan",
+    "truffle:deploy": "truffle migrate --reset --compile-all --network $npm_config_network",
+    "deploy-reset": "truffle migrate --reset --compile-all",
+    "lint": "solhint contracts/*.sol --formatter stylish",
+    "lint:fix": "solhint contracts/*.sol --formatter stylish --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pool:create": "sh ./scripts/pool-create.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjorgjievc/erc20-investment-fund.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/gjorgjievc/erc20-investment-fund#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts-upgradeable": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^10.0.0",
+    "logops": "^2.1.1",
+    "solhint": "^3.3.6",
+    "truffle": "^5.4.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.8.0"
+  }
+}
